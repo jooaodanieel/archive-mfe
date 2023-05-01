@@ -15,7 +15,7 @@ export default function useArchive() {
     }
   }
 
-  useEffect(fetchArchive, [archive])
+  useEffect(fetchArchive, [])
 
   return archive
 }
