@@ -6,10 +6,10 @@ import ArchiveItem from "./components/ArchiveItem"
 export default function Root(props) {
   const archive = useArchive()
 
-  return <>
+  return <div>
     <h3>Post Archive</h3>
     <List>
       { archive.map(({ id, title }) => <ArchiveItem key={id} id={id}>{ title }</ArchiveItem>) }
     </List>
-  </>
+  </div>
 }
