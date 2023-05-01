@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const baseURL = 'http://localhost:8888/v1'
+const baseURL = 'https://content-service.onrender.com/v1'
 
 export default axios.create({
   baseURL,
