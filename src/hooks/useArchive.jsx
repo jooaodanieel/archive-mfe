@@ -12,6 +12,7 @@ export default function useArchive() {
       setArchive(data)
     } catch (e) {
       console.log(e)
+      setArchive([])
     }
   }
 
